@@ -708,7 +708,18 @@ span.span-heading {
     margin: 0px auto;
 }
 
-
+/* projects images */
+.project-work-box-wrap{
+    margin-bottom: 50px;
+}
+.p-w-b-w-img {
+    /* min-width: 400px; */
+    height: 260px;
+    margin: 0px auto;
+}
+.p-w-b-w-img img {
+    border-radius: 30px;
+}
 
 
 
