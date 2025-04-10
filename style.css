@@ -1246,10 +1246,15 @@ nav {
 .site-header.scrolled nav, .mobile-heder.scrolled nav{
     border-bottom: 1px solid transparent;
 }
-.contact-form-box form input{
+.contact-form-box form input, .nav-search form input{
     color: white;
     font-size: 14px;
 }
-.contact-form-box form input:focus-visible{
+.contact-form-box form input:focus-visible, .nav-search form input:focus-visible{
     outline: none;
+}
+.nav-search form input{
+    border: 2px solid #12F7D6;
+    background-color: transparent;
+    color: white;
 }
