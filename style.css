@@ -1045,6 +1045,9 @@ span.span-heading {
 }
 
 @media screen and (min-device-width: 10px) and (max-device-width: 767px) {
+    .projects-page-section {
+        padding-top: 130px;
+    }
     .projectt-top {
         margin: 20px 0px;
     }
