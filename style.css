@@ -876,6 +876,9 @@ span.span-heading {
 }
 
 @media screen and (min-device-width: 10px) and (max-device-width: 991px) {
+    .projects-page-section {
+        padding-top: 140px;
+    }
     .intro-main-heading-box h1 {
         font-size: 54px;
     }
@@ -1042,6 +1045,9 @@ span.span-heading {
 }
 
 @media screen and (min-device-width: 10px) and (max-device-width: 767px) {
+    .projects-page-section {
+        padding-top: 100px;
+    }
     .projectt-top {
         margin: 20px 0px;
     }
