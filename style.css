@@ -1213,7 +1213,7 @@ nav ul li a.active {
 }
 
 
-.site-header {
+.site-header, .mobile-heder {
     position: fixed;
     width: 100%;
     top: 0;
@@ -1225,9 +1225,8 @@ nav ul li a.active {
 }
 
 /* When scrolled */
-.site-header.scrolled {
+.site-header.scrolled, .mobile-heder.scrolled{
     background-color: rgba(255, 255, 255, 0.2);
-    /* adjust as needed */
     backdrop-filter: blur(10px);
     border-bottom: none;
 }
@@ -1238,9 +1237,6 @@ nav {
     backdrop-filter: none;
 }
 
-.site-header.scrolled nav {
+.site-header.scrolled nav, .mobile-heder.scrolled nav{
     border-bottom: 1px solid transparent;
 }
-
-
-
