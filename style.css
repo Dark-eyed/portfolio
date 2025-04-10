@@ -8,6 +8,9 @@ body {
     background-color: #292F36;
     font-family: "Noto Sans", serif;
 }
+.logo a{
+    text-decoration: none;
+}
 
 /* mobile nav styling */
 .mobile-heder {
@@ -767,9 +770,6 @@ margin-left: 10px;
 .projectt-img-box img {
     border-radius: 10px;
 }
-.projectt-top {
-    margin: 20px 0px;
-}
 .projectt-btm {
     margin: 20px 0px;
 }
@@ -1010,6 +1010,9 @@ margin-left: 10px;
     
 }
 @media screen and (min-device-width: 10px) and (max-device-width: 767px){
+    .projectt-top {
+        margin: 20px 0px;
+    }
     .intro-main-content {
         padding-top: 10px;
     }
@@ -1124,6 +1127,19 @@ margin-left: 10px;
     }
     .form-box1, .form-box2 {
         width: 100%;
+    }
+    .my-intro-box {
+        width: 90%;
+    }
+    .intro-languages {
+        width: 90%;
+        border-radius: 22px;
+    }
+    .col-lg-6 .projectt-img-box {
+        min-height: auto;
+    }
+    .col-lg-6 .projectt-img-box img {
+        min-height: auto;
     }
 }
 nav ul li a.active {
