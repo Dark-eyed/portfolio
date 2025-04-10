@@ -25,8 +25,8 @@
                     <div class="col-6">
                         <div class="logo">
                             <a href="index.html">
-                            <h1>&#60;AJ/&#62;</h1>
-                        </a>
+                                <h1>&#60;AJ/&#62;</h1>
+                            </a>
                         </div>
                     </div>
                     <div class="col-6">
@@ -75,8 +75,8 @@
                     <div class="col-2">
                         <div class="logo">
                             <a href="index.html">
-                            <h1>&#60;AJ/&#62;</h1>
-                        </a>
+                                <h1>&#60;AJ/&#62;</h1>
+                            </a>
                         </div>
                     </div>
                     <div class="col-10">
@@ -417,24 +417,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <form action="">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                                <input type="hidden" name="access_key" value="400e54a9-4650-4b5b-9a2d-7c787369e54c">
                                 <div class="form-flex">
                                     <div class="form-box1">
                                         <h3>Your Name*</h3>
-                                        <input type="text" name="" id="">
+                                        <input type="text" name="first_name" id="" required>
                                     </div>
                                     <div class="form-box2">
                                         <h3>Your Email*</h3>
-                                        <input type="email" name="" id="">
+                                        <input type="email" name="email" id="" required>
                                     </div>
                                 </div>
                                 <div class="form-box3">
                                     <h3>Your Message*</h3>
-                                    <input type="text" name="" id="">
+                                    <input type="text" name="message" id="" required>
                                 </div>
                                 <div class="contact-form-submit-btn">
                                     <button>Send message</button>
                                 </div>
+                                <!-- Honeypot Spam Protection -->
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
                             </form>
                         </div>
                     </div>
@@ -501,15 +505,18 @@
     <!-- header scroll js -->
     <script>
         window.addEventListener("scroll", function () {
-          const header = document.querySelector(".site-header, .mobile-heder");
-          if (window.scrollY > 50) {
-            header.classList.add("scrolled");
-          } else {
-            header.classList.remove("scrolled");
-          }
+            const headers = document.querySelectorAll(".site-header, .mobile-heder");
+
+            headers.forEach(header => {
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+            });
         });
-      </script>
-  
+    </script>
+
 
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
