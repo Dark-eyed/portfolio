@@ -1,0 +1,356 @@
+@media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
+    .intro-main {
+        height: 600px;
+        padding-bottom: 170px;
+    }
+
+    .intro-content h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .lorem-title h2 {
+        font-size: 42px;
+        line-height: 55px;
+        margin-bottom: 55px;
+    }
+
+    .form1-content h2 {
+        font-size: 36px;
+        line-height: 57px;
+    }
+
+    .form1-content p {
+        margin-top: 28px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .point-btm h3 {
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 26px;
+    }
+
+    .point-btm p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
+
+    .points-right {
+        height: auto;
+    }
+
+    .vorteile-heading h2 {
+        font-size: 36px;
+        line-height: 57px;
+    }
+
+    .vorteile-main {
+        padding: 90px 0px;
+        padding-top: 60px;
+    }
+
+    .vorteile-card-inside-description p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .vorteile-card-content.col-lg-4.col-md-6.col-sm-6.col-12 {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 1000px) {
+    .intro-content h2 {
+        font-size: 40px;
+    }
+
+    .form1-img-content {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        height: 400px;
+    }
+
+    .form1-img-content img {
+        height: 100%;
+    }
+
+    .form1-content {
+        padding: 40px 0px;
+    }
+
+    .form1-content h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .form1-content p {
+        margin-top: 16px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .points-content {
+        margin-top: 50px;
+    }
+
+    .point-btm {
+        width: 70%;
+        padding: 0px 10px;
+    }
+
+    .point-all {
+        margin-top: 30px;
+    }
+
+    .points-content {
+        margin-top: 70px;
+    }
+
+    .points-right {
+        height: auto;
+        min-height: auto;
+    }
+
+    .point-top {
+        height: 50px;
+        width: 50px;
+    }
+
+    .point-top span {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .point-btm h3 {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .point-btm p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .swiper-slide img {
+        height: 229px;
+        width: 229px;
+    }
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 899px) {
+    .intro-main {
+        height: 400px;
+        padding-bottom: 0;
+    }
+
+    .intro-content {
+        margin-top: 120px;
+    }
+
+    .intro-content h2 {
+        font-size: 31px;
+        line-height: 42px;
+    }
+
+    .lorem-title h2 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 50px;
+    }
+
+    .lorem-detail p {
+        font-size: 22px;
+    }
+    .lorem-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .form1-img-content {
+        min-height: 300px;
+        height: 300px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+    .vorteile-heading h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .vorteile-card-content.col-lg-4.col-md-6.col-sm-6.col-12 {
+        padding-top: 50px;
+    }
+    .vorteile-main {
+        padding: 60px 0px;
+        padding-top: 60px;
+    }
+    .first-form .form-left {
+        padding: 60px 0px;
+    }
+    .first-form .form-right {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 899px){
+    .swiper {
+        padding: 30px 0px;
+    }
+    .points-section .row .col-8, .col-4 {
+        padding: 0;
+        width: 100%;
+    }
+    .points-content {
+        max-width: auto;
+        margin-left: 0;
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .points-section .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .points-section .row .col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 699px){
+    .intro-content h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .lorem-section {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    }
+    .lorem-title h2 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 35px;
+    }
+    .lorem-detail p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .form1-img-content {
+        height: 300px;
+    }
+    .form1-img-content img {
+        height: 300px;
+    }
+    .point-right-img {
+        height: 350px;
+    }
+    .vorteile-main {
+        padding: 60px 0px;
+        padding-top: 30px;
+    }
+    .vorteile-card-content.col-lg-4.col-md-6.col-sm-6.col-12 {
+        padding-top: 30px;
+    }
+}
+@media screen and (min-device-width: 250px) and (max-device-width: 499px){
+    .intro-content {
+        margin-top: 78px;
+    }
+    .intro-content h2 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .language-switcher p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .navbar .menu-button {
+        margin-top: 5px;
+    }
+    .navbar .site-logo a img {
+        width: 177px;
+    }
+    .lorem-section {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .lorem-title h2 {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+    .form1-content {
+        padding: 40px 25px;
+    }
+    .form1-content h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .form1-content p {
+        margin-top: 7px;
+    }
+    .points-content {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .point-right-img {
+        height: 300px;
+    }
+    .vorteile-main {
+        padding: 40px 0px;
+        padding-top: 20px;
+    }
+    .vorteile-card-content.col-lg-4.col-md-6.col-sm-6.col-12 {
+        padding-top: 40px;
+    }
+    .vorteile-card-inside-description p {
+        margin-top: 10px;
+    }
+    .swiper-slide img {
+        height: 190px;
+        width: 190px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        margin-top: -270px;
+    }
+    .swiper {
+        padding: 75px 0px;
+    }
+}
+
+
+@media screen and (min-device-width: 200px) and (max-device-width: 699px){  
+    .intro-main {
+        height: 420px;
+    }
+    .intro-content{
+        margin-top: 120px;
+    }
+    .point-all {
+    width: 100%;
+    margin: 30px 0px;
+ }
+ .point-btm h3 {
+    margin-top: 20px;
+}
+ .point-btm p {
+    margin-top: 16px;
+}
+.points-content{
+    padding-bottom: 30px;
+}
+}

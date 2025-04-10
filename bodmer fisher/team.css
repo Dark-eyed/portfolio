@@ -1,0 +1,37 @@
+/* team intro main section styling */
+.team-intro-main{
+    background-image: url(img/intro3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 333px;
+    padding-top: 75px;
+    padding-bottom: 46px;
+}
+
+/* members-main styling */
+.members-main{
+    padding-top: 145px;
+    padding-bottom: 138px;
+}
+.member-cover-box {
+    min-width: 245px;
+    height: 384px;
+}
+.member-cover-box a{
+    text-decoration: none;
+}
+.member-desc h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2B4EAF;
+    margin-bottom: 5px;
+    margin-top: 9px;
+}
+.member-desc h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: black;
+}

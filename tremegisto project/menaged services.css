@@ -1,0 +1,83 @@
+.nav-btn-menag-1{
+    position: absolute;
+    top: 286px;
+    left: -48px;
+}
+a.nav-btn.nav-btn-menag-1.nav-btn-secondary::after {
+    content: "";
+    border: 4px solid white;
+    width: 103px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    right: -106px;
+    transform: rotate(15deg);
+    transform-origin: -16% 0%;
+}
+.nav-btn-menag-2{
+    position: absolute;
+    top: 496px;
+    left: 162px;
+}
+a.nav-btn.nav-btn-menag-3.nav-btn-secondary::after {
+    content: "";
+    border: 4px solid white;
+    width: 83px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    right: -86px;
+    transform: rotate(-35deg);
+    transform-origin: -48% 0%;
+}
+.nav-btn-menag-3{
+    position: absolute;
+    top: 441px;
+    left: 0px;
+}
+a.nav-btn.nav-btn-menag-2.nav-btn-secondary::after {
+    content: "";
+    border: 4px solid white;
+    width: 55px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    right: -54px;
+    transform: rotate(-91deg);
+    transform-origin: -61% 0%;
+}
+
+/* navigator styling */
+.navigator-services.small-navigators.nav-btn-menag-1:after {
+    content: "";
+    border: 3px solid white;
+    width: 107px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    left: -72px;
+    transform: rotate(-166deg);
+    transform-origin: 113% 0%;
+}
+.navigator-services.small-navigators.nav-btn-menag-3:after {
+    content: "";
+    border: 3px solid white;
+    width: 79px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    left: -53px;
+    transform: rotate(-210deg);
+    transform-origin: 126% 0%;
+}
+.navigator-services.small-navigators.nav-btn-menag-2:after {
+    content: "";
+    border: 3px solid white;
+    width: 40px;
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    left: -39px;
+    transform: rotate(-270deg);
+    transform-origin: 183% 0%;
+}

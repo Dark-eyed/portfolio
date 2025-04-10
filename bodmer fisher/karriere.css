@@ -1,0 +1,47 @@
+.karriere-intro-main{
+    background-image: url(img/lawyers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 333px;
+    padding-top: 23px;
+    padding-bottom: 46px;
+    position: relative;
+}
+.karriere-content-main{
+    padding-top: 34px;
+    padding-bottom: 115px;
+}
+.karriere-intro-main .blue-div{
+    background-color: #0052EE;
+    opacity: 15%;
+}
+.karriere-intro-main .child-intro {
+    width: 537px;
+    min-height: 333px;
+    background-color: #FFFFFF;
+    opacity: 83%;
+    padding: 0px 44px;
+    padding-top: 17px;
+    padding-bottom: 88px;
+    margin-left: auto;
+}
+.karriere-content-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 58px;
+}
+.karriere-content-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 31px;
+}
+.karriere-content-box span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.karriere-content-box {
+    padding: 0px 8px;
+}

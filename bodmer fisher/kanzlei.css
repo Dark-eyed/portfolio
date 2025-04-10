@@ -1,0 +1,72 @@
+/* only header-main styling */
+.only-header-main nav{
+    height: 157px;
+    position: relative;
+}
+.only-header-main .logo a img{
+    filter: invert(1);
+}
+.only-header-main ul li a {
+    color: black;
+}
+
+/* kanzlei intro main section styling */
+.kanzlei-intro-main{
+    background-image: url(img/intro2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 333px;
+    padding-top: 71px;
+    padding-bottom: 41px;
+    position: relative;
+}
+.blue-div {
+    height: 100%;
+    width: 100%;
+    background-color: #0094DA;
+    opacity: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.child-intro {
+    width: 537px;
+    min-height: 333px;
+    background-color: #FFFFFF;
+    opacity: 83%;
+    padding: 0px 44px;
+    padding-top: 18px;
+    padding-bottom: 32px;
+    margin-left: auto;
+}
+.child-intro h2 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Alegreya SC', serif;
+    color: #2B4EAF;
+    margin-bottom: 21px;
+}
+
+/* kanzlei desc section styling */
+.kanzlei-desc-main{
+    padding-top: 76px;
+    padding-bottom: 139px;
+}
+.kanzlei-content-box{
+    width: 528px;
+    margin-left: auto;
+}
+.kanzlei-content-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 58px;
+}
+.kanzlei-content-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 6px;
+}

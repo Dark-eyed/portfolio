@@ -1,0 +1,62 @@
+/* lorem section styling */
+.lorem-section {
+    padding-top: 64px;
+    padding-bottom: 157px;
+}
+.lorem-title h2 {
+    margin-bottom: 17px;
+}
+/* card part styling */
+.card-section{
+    position: relative;
+}
+.card-main .container .row .card{
+    min-width: 332px;
+    background-color: transparent;
+    padding: 0;
+}
+.card-main{
+    padding-top: 0;
+    margin-top: -72px;
+    padding-bottom: 119px;
+}
+.ss{
+    margin-top: 95px;
+}
+.card-main .container .row{
+gap: 72px;
+}
+.card-main .container .row .col-lg-4 {
+    max-width: 328px;
+}
+.card-brand-img {
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: -82px;
+}
+.card-brand-desc p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 36px;
+}
+.card-more-read {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.card-brand-img {
+    max-width: 236px;
+}
+
+
+.extraforcard {
+    height: 482px;
+    width: 100%;
+    background-color: #B9E9D7;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    clip-path: polygon(0% 0, 100% 14%, 100% 100%, 0% 100%);
+}
+

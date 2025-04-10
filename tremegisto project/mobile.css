@@ -1,0 +1,694 @@
+@media only screen and (min-width: 1150px) and (max-width: 1200px){
+    nav ul li a {
+        margin-left: 40px;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1149px){
+    nav ul li a {
+        margin-left: 34px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1099px){
+    nav ul li a {
+        margin-left: 25px;
+    }
+    .logo img {
+        margin-left: 35px;
+    }
+    .search {
+        margin-left: 20px;
+    }
+    .second-nav ul li a {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .intro-heading h1 {
+        font-size: 52px;
+    }
+    .secondary-btm-content {
+        height: 300px;
+        width: 300px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 32px;
+    }
+    .secondary-btm-content p {
+        width: 239px;
+    }
+    .brand-info-top {
+        height: 300px;
+        width: 300px;
+    }
+    .brand-info-btm {
+        height: 300px;
+    }
+    .brand-info-btm h3 {
+        font-size: 32px;
+    }
+    .brand-info-btm p {
+        font-size: 17px;
+        width: 529px;
+    }
+    .service-desc {
+        width: 280px;
+    }
+    .service-box {
+        width: auto;
+    }
+    .brand-info-btm {
+        width: auto;
+    }
+    .brand-info:nth-child(even) .row .col-lg-8 .brand-info-btm{
+        width: 700px;
+    }
+    .partner-box {
+        width: 230px;
+        height: 230px;
+    }
+
+}
+@media only screen and (min-width: 900px) and (max-width: 999px){
+    .brand-info-btm h3 {
+        font-size: 32px;
+    }
+    .brand-info-btm p {
+        font-size: 16px;
+    }
+    .brand-info-intro-bottom {
+        margin-top: 80px;
+    }
+    .brand-info-section {
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+    .brand-info-intro h2 {
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    .partner-box {
+        width: 220px;
+        height: 220px;
+    }
+    
+}
+@media only screen and (min-width: 700px) and (max-width: 899px){
+    .intro-heading {
+        margin-top: 140px;
+    }
+    .intro-heading h1 {
+        font-size: 42px;
+        line-height: 56px;
+        width: 530px;
+    }
+    .support-btn button {
+        font-size: 16px;
+        height: 80px;
+        width: 80px;
+        border: 3px solid white;
+    }
+    .primary-heading h2 {
+        font-size: 32px;
+    }
+    .secondary-btm-content {
+        height: 340px;
+        width: 340px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 30px;
+    }
+    .secondary-btm-content p {
+        font-size: 15px;
+        width: 260px;
+    }
+    .secondary-bottom .row .col-lg-4:nth-child(3){
+        margin-top: 30px;
+    }
+    .brand-info-section {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .services-main {
+        padding-bottom: 80px;
+        padding-top: 70px;
+    }
+    .review-section {
+        padding: 80px 0px;
+    }
+    .partner-main {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .partner-box {
+        width: 220px;
+        height: 220px;
+    }
+    .partner-heading h2 {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 799px){
+    .secondary-top-content h2 {
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .secondary-top-content p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    .secondary-btm-content p {
+        font-size: 14px;
+        width: 201px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 20px;
+        line-height: 40PX;
+    }
+    .secondary-btm-content {
+        height: 250PX;
+        width: 250PX;
+    }
+    .brand-info-intro h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-left: 15px;
+    }
+    .brand-info-btm h3 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 36px;
+        color: #232F5D;
+    }
+    .brand-info-btm p {
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: 21px;
+        width: 400PX;
+    }
+    .services-top p {
+        width: auto;
+    }
+    .services-main {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width: 799px){
+    .intro-heading h1 {
+        font-size: 28PX;
+        line-height: 34px;
+        width: auto;
+    }   
+    .intro-heading p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+    }
+    .intro-heading button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .primary-heading h2 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .brand-info-btm h3 {
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .brand-info-btm p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+        width: 400px;
+    }
+    .services-top p {
+        width: auto;
+    }
+    .secondary-bottom .row{
+        flex-direction: column;
+    }
+    .secondary-btm-content{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .secondary-btm-content {
+        height: 400px;
+        width: 400px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 28px;
+        line-height: 40PX;
+    }
+    .secondary-btm-content p {
+        font-size: 16px;
+        width: 307px;
+    }    
+    .secondary-bottom {
+        margin-top: 10px;
+    }
+    .secondary-bottom .row .col-sm-6 {
+    width: auto;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 599px){
+    .intro-heading h1 {
+        font-size: 28PX;
+        line-height: 34px;
+        width: auto;
+    }
+    .intro-main {
+    padding-bottom: 55px;
+}   
+.intro-heading {
+    margin-top: 100px;
+}
+    .intro-heading p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+        padding: 0px 20px;
+    }
+    .intro-heading button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .primary-heading h2 {
+    font-size: 23px;
+    line-height: 30px;
+}
+.primary-content-right ul li {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+    .brand-info-btm h3 {
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .brand-info-btm p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+        width: 400px;
+    }
+    .services-top p {
+        width: auto;
+    }
+    .secondary-bottom .row{
+        flex-direction: column;
+    }
+    .secondary-top-content h2 {
+    font-size: 20px;
+}
+    .secondary-btm-content{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .secondary-btm-content {
+        height: 400px;
+        width: 400px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 28px;
+        line-height: 40PX;
+    }
+    .secondary-btm-content p {
+        font-size: 16px;
+        width: 307px;
+    }
+    .secondary-top-content p {
+    padding: 0px 12px;
+}    
+    .secondary-bottom {
+        margin-top: 10px;
+    }
+    .secondary-bottom .row .col-sm-6 {
+    width: auto;
+}
+    .partner-heading h2 {
+    font-size: 20px;
+}
+footer ul li {
+    font-size: 15px;
+    line-height: 22px;
+}
+footer h2 {
+    font-size: 20px;
+    line-height: 34px;
+}
+}
+@media only screen and (min-width: 150px) and (max-width: 399px){
+    .intro-heading h1 {
+        font-size: 28PX;
+        line-height: 34px;
+        width: auto;
+    }
+    .intro-main {
+    padding-bottom: 55px;
+}   
+.intro-heading {
+    margin-top: 100px;
+}
+    .intro-heading p {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+        padding: 0px 20px;
+    }
+    .intro-heading button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .primary-heading h2 {
+    font-size: 23px;
+    line-height: 30px;
+}
+.primary-content-right ul li {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+    .brand-info-btm h3 {
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .brand-info-btm p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+        width: 400px;
+    }
+    .services-top p {
+        width: auto;
+    }
+    .secondary-bottom .row{
+        flex-direction: column;
+    }
+    .secondary-top-content h2 {
+    font-size: 20px;
+}
+    .secondary-btm-content{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .secondary-btm-content {
+        height: 400px;
+        width: 400px;
+    }
+    .secondary-btm-content h3 {
+        font-size: 28px;
+        line-height: 40PX;
+    }
+    .secondary-btm-content p {
+        font-size: 16px;
+        width: 307px;
+    }
+    .secondary-top-content p {
+    padding: 0px 12px;
+}    
+    .secondary-bottom {
+        margin-top: 10px;
+    }
+    .secondary-bottom .row .col-sm-6 {
+    width: auto;
+}
+    .partner-heading h2 {
+    font-size: 20px;
+}
+footer ul li {
+    font-size: 15px;
+    line-height: 22px;
+}
+footer h2 {
+    font-size: 20px;
+    line-height: 34px;
+}
+.secondary-btm-content p {
+    font-size: 14px;
+    width: auto;
+    padding: 0px 12px;
+}
+.secondary-btm-content {
+    height: 250px;
+    width: 250px;
+}
+.brand-info-top {
+    height: 250px;
+    width: 250px;
+}
+.brand-info-top img {
+    width: 200px;
+}
+.brand-info-btm {
+    width: auto;
+    margin-left: 0;
+    margin-top: 19px;
+}
+.brand-info-btm h3 {
+    font-size: 20px;
+    line-height: 32px;
+}
+.primary-content-left img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 200px) and (max-width: 999px){
+    .intro-section {
+        min-height: auto;
+    }
+    .intro-brands{
+        display: none;
+    }
+    .logo img {
+    margin-left: 20px;
+    width: 140px;
+}
+    nav .row .col-6 {
+        display: none;
+    }
+    nav .row {
+        justify-content: space-between;
+    }
+    .secondary-main {
+        padding-bottom: 50px;
+    }
+    .brand-info:nth-child(even) .row .col-lg-4 {
+        order: 0;
+    }
+    .brand-info-top {
+        margin: 0px auto;
+        margin-bottom: -40px;
+    }
+    .brand-info-btm {
+        width: auto;
+        margin-left: 0;
+    }
+    .services-btm .col-lg-6:nth-child(2) .service-box {
+        margin-left: 0;
+    }
+    .search {
+        margin-left: 15px;
+    }
+    .menu-nav button{
+        display: block;
+    }
+    .support-btn button {
+        top: 100px;
+    }
+    i.ri-menu-fill {
+        font-size: 23px;
+    }
+    .partner-box-content a img{
+        width: 90%;
+    }
+    .primary-content .row .col-lg-6:nth-child(1) {
+        order: 2;
+    }
+    .primary-content-left {
+        justify-content: center;
+    }
+    .secondary-top-content p {
+        width: auto;
+    }
+    .secondary-top-content h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .brand-info-intro h2 {
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .brand-info-intro-bottom {
+        margin-top: 50px;
+    }
+    .brand-info-btm-content {
+        padding-top: 57px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 70px;
+    }
+    .services-top h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .services-btm {
+        margin-top: 40px;
+    }
+    .service-desc h3 {
+        font-size: 20px;
+    }
+    .service-desc p {
+        font-size: 15px;
+    }
+    .services-main {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .partner-heading h2 {
+        font-size: 24px;
+        margin-bottom: 65px;
+    }
+    /* .review-section {
+        display: none;
+    } */
+    .intro-heading p {
+        max-width: 600px;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 600px){
+    .menu-nav {
+        margin-right: 14px;
+    }
+    .search {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+.brand-info-btm-content {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.brand-info-btm p {
+    width: auto;
+}
+.service-desc {
+    margin-top: 30px;
+    padding: 0px 10px;
+}
+.service-box {
+    margin-bottom: 30px;
+}
+.services-main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.partner-heading h2 {
+    margin-bottom: 30px;
+}
+.partner-box {
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.partner-main {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+    .service-box {
+    min-height: 160px;
+    max-width: 523px;
+    flex-direction: column;
+}
+footer .socials a {
+    margin-right: 0;
+    margin-top: 15px;
+}
+.socials {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+
+
+
+/* some other stiles */
+@media only screen and (min-width: 200px) and (max-width: 1200px){
+    .navigator-services.nav-btn-bus {
+        left: 0px;
+        top: 0px;
+    }
+    .nav-btn-cloud-child1 {
+        top: 0px;
+        left: 0px;
+    }
+    .navigator-services.nav-btn-security {
+        top: 0;
+        left: 0;
+    }
+    .navigator-services.nav-btn-phone {
+        top: 0;
+        left: 0;
+    }
+    .navigator-services.nav-btn-menag {
+        left: 119px;
+        top: 296px;
+        top: 0;
+        left: 0;
+    }
+    .navigator-services.nav-btn-infra {
+        top: 0;
+        left: 0;
+    }
+    .navigator-services.nav-btn-cloud {
+        top: 0;
+        left: 0;
+    }
+    .nav-btn-cloud-child2 {
+        top: 0;
+        left: 0;
+    }
+    .navigator-services {
+        border: 6px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navigator-services.nav-btn-cloud-child2.small-navigators:before {
+        display: none;
+    }
+    .navigator-services.nav-btn-cloud:before {
+        display: none;
+    }
+    .navigator-services.nav-btn-menag:after {
+        display: none;
+    }
+    .navigator-services.nav-btn-security::after {
+        display: none;
+    }
+    .navigator-services.nav-btn-bus:before {
+        display: none;
+    }
+    .navigator-services.nav-btn-phone:after {
+        display: none;
+    }
+    .navigator-services.nav-btn-infra:before {
+        display: none;
+    }
+    .navigator-services.nav-btn-cloud-child1.small-navigators:after {
+        display: none;
+    }
+    .navigator-services.nav-btn-main {
+        left: 507px;
+        top: 100px;
+        background-color: white;
+    }
+}

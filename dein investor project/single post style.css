@@ -1,0 +1,138 @@
+/* first part styling */
+*{
+    color: #333333;
+}
+.row{
+    padding: 0;
+}
+.col{
+    padding: 0;
+}
+.brand-main {
+    margin-top: 69px;
+}
+.container.brand-container {
+    width: 700px;
+    /* width: 628px; */
+    /* border: 2px solid red; */
+}
+.logo-brand-main {
+    display: flex;
+}
+.row.title-brand {
+    margin-bottom: 39px;
+}
+.logo-brand-main-right {
+    margin-left: 26px;
+}
+.row.brand-img {
+    margin-top: 50px;
+}
+.col-lg-3{
+    padding: 0;
+}
+.col-lg-9{
+    padding: 0;
+}
+.brand-logo-desc{
+    margin-left: 26px;
+}
+.title-brand .col h2{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 19px;
+}
+.brand-logo-desc h3{
+    font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        margin-top: 0;
+}
+.brand-logo-desc p{
+    font-size: 16px;
+        font-weight: 300;
+        line-height: 23px;
+}
+
+.brand-poster img{
+        width: 100%;
+        object-fit: cover;
+}
+.release-date h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 37px;
+}
+.brand-bottom{
+    padding-bottom: 60px;
+}
+.about-author {
+    margin-top: 24px;
+}
+.about-author h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.about-author h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 14px;
+}
+.about-author p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 41px;
+}
+.lorem-ipsem-text p{
+    margin-top: 0;
+}
+.yt-video {
+    width: 100%;
+}
+.yt-video p{
+margin-top: 20px;
+}
+video {
+    width: 100%;
+}
+.socials-brand{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.socials-brand h2,h3{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 14px
+}
+.socials-brand h3{
+    margin-top: 14px;
+    margin-bottom: 11px;
+}
+.social-brand-links a{
+    margin-right: 15px;
+}
+.social-brand-links a:last-child{
+    margin-right: 0px;
+}
+
+
+/* mobile css */
+@media screen and (min-device-width: 200px) and (max-device-width: 550px){
+.container.brand-container{
+    width: auto;
+}
+.col-lg-3 {
+    padding: 0px 15px;
+}
+.title-brand .col{
+    padding: 0px 15px;
+}
+}
