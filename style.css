@@ -17,6 +17,7 @@ body {
 .mobile-heder {
     display: none;
 }
+
 section.intro-section {
     padding-top: 70px;
 }
@@ -37,7 +38,7 @@ section.intro-section {
     .toogle-close svg,
     .toogle-open svg {
         width: 24px;
-        filter: invert(1);
+        fill: white;
     }
 
     nav.mobile-nav {
@@ -798,7 +799,7 @@ span.span-heading {
 }
 
 .col-lg-6 .projectt-img-box img {
-    min-height: 349px;
+    min-height: 356px;
     width: 100%;
     object-fit: fill;
 }
@@ -807,22 +808,6 @@ span.span-heading {
 .col-lg-3 a {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -879,6 +864,7 @@ span.span-heading {
     .projects-page-section {
         padding-top: 140px;
     }
+
     .intro-main-heading-box h1 {
         font-size: 54px;
     }
@@ -1048,6 +1034,7 @@ span.span-heading {
     .projects-page-section {
         padding-top: 130px;
     }
+
     .projectt-top {
         margin: 20px 0px;
     }
@@ -1219,7 +1206,8 @@ nav ul li a.active {
 }
 
 
-.site-header, .mobile-heder {
+.site-header,
+.mobile-heder {
     position: fixed;
     width: 100%;
     top: 0;
@@ -1231,7 +1219,8 @@ nav ul li a.active {
 }
 
 /* When scrolled */
-.site-header.scrolled, .mobile-heder.scrolled{
+.site-header.scrolled,
+.mobile-heder.scrolled {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border-bottom: none;
@@ -1243,18 +1232,50 @@ nav {
     backdrop-filter: none;
 }
 
-.site-header.scrolled nav, .mobile-heder.scrolled nav{
+.site-header.scrolled nav,
+.mobile-heder.scrolled nav {
     border-bottom: 1px solid transparent;
 }
-.contact-form-box form input, .nav-search form input{
+
+.contact-form-box form input,
+.nav-search form input {
     color: white;
     font-size: 14px;
 }
-.contact-form-box form input:focus-visible, .nav-search form input:focus-visible{
+
+.contact-form-box form input:focus-visible,
+.nav-search form input:focus-visible {
     outline: none;
 }
-.nav-search form input{
+
+.nav-search form input {
     border: 2px solid #12F7D6;
     background-color: transparent;
     color: white;
+}
+
+/* ios devices */
+@supports (-webkit-touch-callout: none) {
+
+    .site-header.scrolled,
+    .mobile-heder.scrolled {
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-bottom: none;
+    }
+}
+
+.nav-ul ul li a:hover {
+    border-bottom: 1px solid white;
+    transition: all ease-in-out 0.2s;
+}
+
+.contact-form-submit-btn button:hover {
+    color: #12F7D6;
+    background-color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.contact-form-submit-btn button:active {
+    border: 2px solid #12F7D6;
 }
