@@ -329,12 +329,14 @@ nav .logo h1 {
 }
 
 .my-intro-cv button {
-    background-color: white;
+    background-color: transparent;
     padding: 10px 30px;
-    border: transparent;
+    border: 1px solid #12F7D6;
     border-radius: 30px;
 }
-
+.my-intro-cv button a {
+    color: white;
+}
 .my-intro-cv button a {
     text-decoration: none;
     display: flex;
@@ -1260,7 +1262,7 @@ nav {
     .site-header.scrolled,
     .mobile-heder.scrolled {
         background-color: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(10px);
         border-bottom: none;
     }
 }
