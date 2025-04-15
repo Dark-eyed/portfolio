@@ -1281,3 +1281,31 @@ nav {
 .contact-form-submit-btn button:active {
     border: 2px solid #12F7D6;
 }
+
+/* scrollbar styling */
+/* Scrollbar track */
+::-webkit-scrollbar {
+    width: 6px; /* vertical scrollbar width */
+    height: 10px; /* horizontal scrollbar height */
+  }
+  
+  /* Scrollbar background (track) */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(18, 247, 214, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(6px); /* Blur effect for glass look */
+  -webkit-backdrop-filter: blur(6px); /* Safari support */
+  }
+  
+  /* Scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #12F7D6;
+    cursor: pointer;
+  }
+  
