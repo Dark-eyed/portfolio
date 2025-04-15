@@ -1297,15 +1297,13 @@ nav {
   
   /* Scrollbar thumb (the draggable part) */
   ::-webkit-scrollbar-thumb {
-    background: rgba(18, 247, 214, 0.6);
+    background: #12F7D6;
     border-radius: 10px;
-    backdrop-filter: blur(6px); /* Blur effect for glass look */
-  -webkit-backdrop-filter: blur(6px); /* Safari support */
   }
   
   /* Scrollbar thumb on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #12F7D6;
+    background: #0bf1cf;
     cursor: pointer;
   }
   
