@@ -1260,7 +1260,7 @@ nav {
     .site-header.scrolled,
     .mobile-heder.scrolled {
         background-color: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(30px);
         border-bottom: none;
     }
 }
