@@ -809,17 +809,6 @@ footer .container{
 color: #DF81B6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* universal style */
 
 .intro-heading h1, span.span-heading, .intro-div h2 strong, nav ul li a:hover, .title-heading h1, .about-box p strong, .offer-title-main h2, .project-title h2, .goal-heading h2, .contact-form form h2, #formSuccessMessage {
@@ -834,4 +823,80 @@ color: #DF81B6;
 .about-box p .span-heading:last-child {
     display: inline-block;
     margin-top: 19px;
+}
+
+/* Responsive design   */
+@media screen and (min-device-width: 0px) and (max-device-width: 1310px) { 
+    .container{
+        min-width: auto;
+    }
+    .goal-img {
+    max-height: 550px;
+}
+.intro-div p {
+    padding-left: 69px;
+}
+}
+/* 1200 */
+@media screen and (min-device-width: 0px) and (max-device-width: 1200px) { 
+nav ul li a {
+    padding: 19px 19px;
+}
+.contact-btn-nav a {
+    padding: 10px 40px;
+    font-size: 14px;
+}
+nav ul li a {
+    font-size: 15px;
+}
+.logo img {
+    width: 130px;
+}
+.title-heading h1 {
+    font-size: 92px;
+    line-height: 102px;
+}
+.title-main {
+    padding: 100px 0px;
+    padding-bottom: 10px;
+}
+.intro-div p {
+    padding-left: 24px;
+}
+.goal-main .container .row .col-lg-8, .goal-main .container .row .col-lg-4 {
+    width: 50%;
+}
+.project-box-title h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-box-img-dsc {
+    min-height: 600px;
+}
+.project-box-img {
+    min-height: 590px;
+}
+.project-box {
+    min-height: 590px;
+}
+.project-box-img-dsc {
+    top: 480px;
+}
+
+}
+
+/* 992 */
+@media screen and (min-device-width: 0px) and (max-device-width: 992px) { 
+
+}
+
+/* 768 */
+@media screen and (min-device-width: 0px) and (max-device-width: 768px) { 
+
+}
+
+/* 576 */
+@media screen and (min-device-width: 0px) and (max-device-width: 576px) { 
+
 }
