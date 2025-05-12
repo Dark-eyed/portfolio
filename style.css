@@ -1634,3 +1634,6 @@ nav ul li a:hover,
     background-color: transparent;
     border: none;
 }
+.nav-toogle-btn button img{
+        filter: invert(1);
+    }
