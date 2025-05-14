@@ -709,7 +709,7 @@ span.span-heading {
 }
 
 .project-box-img {
-    background-image: url(img/ort.jpg);
+    background-image: url(img/ort.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -833,23 +833,23 @@ span.span-heading {
 }
 
 .swissmig-img {
-    background-image: url(img/swissmig-as-16.jpg.jpg);
+    background-image: url(img/swissmig-as-16.jpg\ \(1\).webp);
 }
 
 .dein-img {
-    background-image: url(img/dein.jpg);
+    background-image: url(img/dein.webp);
 }
 
 .ter-img {
-    background-image: url(img/ter.png);
+    background-image: url(img/ter.webp);
 }
 
 .bod-img {
-    background-image: url(img/bod.jpg);
+    background-image: url(img/bod.webp);
 }
 
 .net-img {
-    background-image: url(img/net.jpg);
+    background-image: url(img/net.webp);
 }
 
 .projects-main .container .row .col-lg-4 {
@@ -1633,23 +1633,4 @@ nav ul li a:hover,
 .close-tbn-form button {
     background-color: transparent;
     border: none;
-}
-.about-box-wrap {
-    height: 100%;
-}
-.about-box-div {
-    height: 100%;
-}
-.about-box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.about-box p {
-    font-size: 18px;
-    line-height: 30px;
-}
-.about-box p strong {
-    font-size: 20px;
 }
